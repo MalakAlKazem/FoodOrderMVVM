@@ -3,6 +3,7 @@
     <style name="Base.Theme.MVVMFoodApp" parent="Theme.Material3.Light.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
     </style>
 
     <style name="Theme.MVVMFoodApp" parent="Base.Theme.MVVMFoodApp" />

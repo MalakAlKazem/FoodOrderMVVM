@@ -10,6 +10,7 @@ import com.learning.mvvmfoodapp.pogo.MealsByCategory
 class MostPopularAdapter():RecyclerView.Adapter<MostPopularAdapter.PopularMealViewHolder> (){
     private var mealsList = ArrayList<MealsByCategory>()
     lateinit var  onItemClick:((MealsByCategory) -> Unit)
+    var onLongItemClick:((MealsByCategory)->Unit)?=null
     fun setMeals(mealsList:ArrayList<MealsByCategory>){
         this.mealsList = mealsList
         notifyDataSetChanged()
@@ -26,6 +27,10 @@ class MostPopularAdapter():RecyclerView.Adapter<MostPopularAdapter.PopularMealVi
 
         holder.itemView.setOnClickListener {
             onItemClick.invoke(mealsList[position])
+        }
+        holder.itemView.setOnLongClickListener{
+            onLongItemClick?.invoke(mealsList[position])
+            true
         }
     }
 
