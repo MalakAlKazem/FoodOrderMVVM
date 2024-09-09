@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "com.learning.mvvmfoodapp-mergeDebugResources-51:/layout/fragment_search.xml",
+        "source": "com.learning.mvvmfoodapp-main-54:/layout/fragment_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.learning.mvvmfoodapp-mergeDebugResources-51:\\layout\\popular_items.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.learning.mvvmfoodapp-main-54:\\layout\\popular_items.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.learning.mvvmfoodapp-mergeDebugResources-51:\\layout\\meal_item.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.learning.mvvmfoodapp-main-54:\\layout\\meal_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.learning.mvvmfoodapp-mergeDebugResources-51:\\layout\\fragment_categories.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.learning.mvvmfoodapp-main-54:\\layout\\fragment_categories.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.learning.mvvmfoodapp-mergeDebugResources-51:\\layout\\activity_category_meals.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.learning.mvvmfoodapp-main-54:\\layout\\activity_category_meals.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.learning.mvvmfoodapp-mergeDebugResources-51:\\layout\\activity_meal.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.learning.mvvmfoodapp-main-54:\\layout\\activity_meal.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.learning.mvvmfoodapp-mergeDebugResources-51:\\layout\\fragment_meal_bottom_sheet.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.learning.mvvmfoodapp-main-54:\\layout\\fragment_meal_bottom_sheet.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.learning.mvvmfoodapp-mergeDebugResources-51:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.learning.mvvmfoodapp-main-54:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.learning.mvvmfoodapp-mergeDebugResources-51:\\layout\\fragment_favorites.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.learning.mvvmfoodapp-main-54:\\layout\\fragment_favorites.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.learning.mvvmfoodapp-mergeDebugResources-51:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.learning.mvvmfoodapp-main-54:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.learning.mvvmfoodapp-mergeDebugResources-51:\\layout\\category_item.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.learning.mvvmfoodapp-main-54:\\layout\\category_item.xml"
+    }
+]

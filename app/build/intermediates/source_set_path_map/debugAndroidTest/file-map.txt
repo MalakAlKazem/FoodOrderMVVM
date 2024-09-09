@@ -1,0 +1,5 @@
+com.learning.mvvmfoodapp.test.app-core-1.6.1-0 C:\Users\USER\.gradle\caches\transforms-3\383a466b18128c1ea31d48c715f3ae2e\transformed\core-1.6.1\res
+com.learning.mvvmfoodapp.test.app-androidTest-1 C:\Users\USER\AndroidStudioProjects\MVVMFoodApp\app\build\generated\res\resValues\androidTest\debug
+com.learning.mvvmfoodapp.test.app-mergeDebugAndroidTestResources-2 C:\Users\USER\AndroidStudioProjects\MVVMFoodApp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.learning.mvvmfoodapp.test.app-mergeDebugAndroidTestResources-3 C:\Users\USER\AndroidStudioProjects\MVVMFoodApp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.learning.mvvmfoodapp.test.app-merged_res-4 C:\Users\USER\AndroidStudioProjects\MVVMFoodApp\app\build\intermediates\merged_res\debugAndroidTest
