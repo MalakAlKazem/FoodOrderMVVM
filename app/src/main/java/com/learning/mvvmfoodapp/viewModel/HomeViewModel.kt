@@ -1,5 +1,6 @@
 package com.learning.mvvmfoodapp.viewModel
 
+import android.app.DownloadManager.Query
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -26,6 +27,9 @@ class HomeViewModel(
    private var categoriesLiveDate  = MutableLiveData<List<Category>>()
     private var favoriteMealsLiveData = mealDatabase.mealDao().getAllMeals()
     private var bottomSheetMealLiveData = MutableLiveData<Meal>()
+    private val searchMealsLiveDta = MutableLiveData<List<Meal>>()
+
+
     fun getRandomMeal(){
         RetrofitInstance.api.getRandomMeal().enqueue(object : Callback<MealList> {
             override fun onResponse(p0: Call<MealList>, p1: Response<MealList>) {
@@ -63,6 +67,24 @@ class HomeViewModel(
             mealDatabase.mealDao().delete(meal)
         }
     }
+
+    fun searchMeals(searchQuery: String) = RetrofitInstance.api.searchMeals(searchQuery).enqueue(
+        object : Callback<MealList>{
+            override fun onResponse(p0: Call<MealList>, p1: Response<MealList>) {
+                val mealsList = p1.body()?.meals
+                mealsList?.let {
+                    searchMealsLiveDta.postValue(it)
+                }
+            }
+
+            override fun onFailure(p0: Call<MealList>, p1: Throwable) {
+                Log.d("HomeViewModel",p1.message.toString())
+
+            }
+        }
+    )
+
+    fun observerSearchMealsLiveData():LiveData<List<Meal>> = searchMealsLiveDta
     fun insertMeal(meal: Meal){
         viewModelScope.launch {
             mealDatabase.mealDao().upsert(meal)

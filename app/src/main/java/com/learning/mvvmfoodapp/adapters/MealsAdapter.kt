@@ -9,7 +9,7 @@ import com.bumptech.glide.Glide
 import com.learning.mvvmfoodapp.databinding.MealItemBinding
 import com.learning.mvvmfoodapp.pogo.Meal
 
-class FavoriteMealsAdapter : RecyclerView.Adapter<FavoriteMealsAdapter.FavoriteMealsAdapterViewHolder>() {
+class MealsAdapter : RecyclerView.Adapter<MealsAdapter.FavoriteMealsAdapterViewHolder>() {
 
     inner class FavoriteMealsAdapterViewHolder(val binding: MealItemBinding) : RecyclerView.ViewHolder(binding.root)
 
