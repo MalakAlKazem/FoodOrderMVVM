@@ -1,6 +1,6 @@
-# FoodApp
+# FoodOrder
 
-FoodApp is a Kotlin-based mobile application designed to display meals using the MVVM (Model-View-ViewModel) architecture. The app fetches data from a food API via Retrofit, with Coroutines for handling asynchronous operations. It also allows users to search for meals, save their favorite meals, and view meal categories.
+FoodOrder is a Kotlin-based mobile application designed to display meals using the MVVM (Model-View-ViewModel) architecture. The app fetches data from a food API via Retrofit, with Coroutines for handling asynchronous operations. It also allows users to search for meals, save their favorite meals, and view meal categories.
 
 ## Features
 
